@@ -1,8 +1,6 @@
 # Curso_nodejs
 
 
-Aprenda a desenvolver aplicações web com esse curso completo de NodeJS e MongoDB, um curso 100% prático que vai te deixar por dentro de duas das tecnologias mais valorizadas pelo mercado.
-
 Entendendo as tecnologias:
 
 O que é NodeJS?
