@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/eltonsa75/curso_nodejs#readme",
   "dependencies": {
+    "ejs": "^3.1.6",
     "express": "^4.15.3"
   }
 }
