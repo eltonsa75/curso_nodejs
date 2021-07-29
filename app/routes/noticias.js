@@ -1,5 +1,7 @@
 module.exports = function(app){
 
+    app.get('/noticias', function(req, res){
+
     var mysql = require('mysql');
 
     var connection = mysql.createConnection({
@@ -14,7 +16,6 @@ module.exports = function(app){
             res.send(result);
     });
 
-    app.get('/noticias', function(req, res){
-        res.render("noticias/noticias");
+        //res.render("noticias/noticias");
     });
 };
