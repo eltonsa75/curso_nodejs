@@ -10,6 +10,10 @@ module.exports = function(app){
 
     });
 
+    connection.query('select * from noticias', function(error, result){
+            res.send(result);
+    });
+
     app.get('/noticias', function(req, res){
         res.render("noticias/noticias");
     });
