@@ -4,6 +4,7 @@ module.exports = function(app){
     });
 
     app.post('/noticias/salvar', function(req, res){
-        res.send('Chegou na Página');
+        var noticias = req.body;
+        res.send(noticias);
     });
 };
