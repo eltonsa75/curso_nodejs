@@ -10,17 +10,32 @@
 		</head>
 	<body>
 
-		<h1 class="text-center m-5">Adicionar notícia</h1>
+		<h1 class="text-center m-5">Adicionar Notícia</h1>
 		<br />
 		<div class="container">
 			<form action="/noticias/salvar" method="post">
 				<div class="mb-3">
-					<label for="exampleFormControlInput1" class="form-label">Email address</label>
-					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+					<label for="titulo" class="form-label">Título</label>
+					<input type="text" class="form-control" id="titulo" name="titulo" placeholder="Título da notícia">
+				  </div>
+				<div class="mb-3">
+					<label for="resumo" class="form-label">Resumo</label>
+					<input type="text" class="form-control" id="titulo" name="resumo" placeholder="Resumo da notícia">
+				  </div>
+				<div class="mb-3">
+					<label for="autor" class="form-label">Nome do Autor</label>
+					<input type="text" class="form-control" id="titulo" name="autor" placeholder="Autor da notícia">
+				  </div>
+				<div class="mb-3">
+					<label for="data_noticias" class="form-label">Data dos Fatos</label>
+					<input type="text" class="form-control" id="data_noticias" name="data_noticias" placeholder="Data da notícia">
 				  </div>
 				  <div class="mb-3">
-					<label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-					<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					<label for="noticias" class="form-label">Notícias</label>
+					<textarea class="form-control" id="noticias" name="noticias" rows="3"></textarea>
+				  </div>
+				  <div class="col-12">
+					<button type="submit" class="btn btn-primary">Enviar</button>
 				  </div>
 			</form>
 		</div>
