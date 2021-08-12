@@ -10,7 +10,7 @@
 		</head>
 	<body>
 
-		<h1>Adicionar notícia</h1>
+		<h1 class="text-center m-5">Adicionar notícia</h1>
 		<br />
 
 		<% if(validacao) { %>
@@ -34,9 +34,9 @@
 				<label for="data_noticia" class="form-label">Data dos Fatos</label>
 				<input type="date" class="form-control" id="data_noticia" name="data_noticia" value="<%=noticia.data_noticia%>"placeholder="Data da noticia"/>
 				<label>Notícia</label>
-				<textarea class="form-control" id="noticia" name="noticia" value="<%=noticia.noticia%>"rows="5" cols="30"></textarea>
+				<textarea class="form-control" id="noticia" name="noticia"  rows="5" cols="30"><%=noticia.noticia%></textarea>
 				<br/>
-				<input type="submit" value="Enviar" />
+				<input type="submit" class="btn btn-primary" value="Enviar" />
 			</form>
 		</div>
 
